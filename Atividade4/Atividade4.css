@@ -1,0 +1,54 @@
+.Elspeth{
+    background-color: azure;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.Garruk{
+    background-color: darkolivegreen;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.Chandra{
+    background-color: firebrick;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.Jace{
+    background-color: darkcyan;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.Liliana{
+    background-color: grey;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.texto {
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+}
+
+.icone {
+    
+    margin-top: 15px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+h2 {
+    color: white;
+    background-color: black;
+}
+
+p{
+    font-size: larger;
+    margin-left: 10px;
+}
