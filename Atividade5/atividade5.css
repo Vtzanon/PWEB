@@ -1,0 +1,113 @@
+body {
+    padding: 30px;
+
+    background: #9af192 url(https://i.imgur.com/OpqkZiK.jpg);
+    background-repeat: no-repeat;
+    
+    line-height: 1.1;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.titulo {
+    font-size: x-large;
+    font-weight: 100px;
+    background-color: rgb(231, 71, 218);
+}
+
+.sequencia1 {
+    background-color: rgba(212, 233, 118, 0.945);
+    border: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: groove;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns:auto;
+    grid-template-rows:170px 420px;
+    grid-template-areas: 'a b c';
+}
+
+.sequencia2 {
+    background-color: rgb(179, 84, 84);
+    border: 1px;
+    border-color:black;
+    border-style: groove;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns:auto;
+    grid-template-rows:190px 420px;
+    grid-template-areas: 'a b c';
+}
+
+.p1 {
+    text-align :justify;
+    margin: 5px;
+}
+.p2 {
+    text-align: justify;
+    margin: 3px;
+}
+.p3 {
+    text-align: justify;
+    margin: 3px;
+}
+.p4 {
+    text-align: justify;
+    margin: 3px;
+}
+.p5 {
+    text-align: justify;
+    margin: 3px;
+}
+.p6 {
+    text-align: justify;
+    margin: 5px;
+}
+.p7 {
+    text-align: justify;
+    margin: 3px;
+}
+.p8 {
+    text-align: justify;
+    margin: 5px;
+}
+.caixa {
+
+  
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px;
+    border-style: groove;
+    border-color: rgb(216, 92, 139);
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    }
+    .hint {
+        display: none;  
+      }
+      
+      .error {
+      display: none;
+      } /* limpa o  hint inicialmente */
+      
+      
+      
+      input:focus + .error, textarea:focus + .hint {
+      display: inline-block; /* mostra do lado */  
+      } /* quando der o foco no input, mostra o hint e dá o foco no textarea */
+      
+      .error {
+      color: red;
+      /*display: block; /* mostra abaixo */
+      font-size: 0.8em;
+      font-style: italic;
+      margin: 5px 0 0 90px;
+      }
+      
