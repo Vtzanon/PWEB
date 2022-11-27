@@ -1,0 +1,68 @@
+body{
+	background-color: rgb(207, 132, 170);
+	margin: 0;
+	margin-top: 10px;
+	font-family: Calibri;
+}
+
+header{
+	color: MidnightBlue;
+	font-size: 40px;
+	height: 100px;
+	text-align: center;
+}
+
+aside{
+	color: White;
+	position: fixed;
+	background-color: FireBrick;
+	margin-top: 10px ;
+	float: left;
+	width: 200px;
+	height: 50%;
+}
+aside a{	
+	font-family: Cambria;
+	color: White;
+}
+
+main{
+	margin: 0 auto;
+	width: 1100px;
+	background-image: url(images/back-main.jpg);
+}
+article{
+	float: center-left;
+	width: 960px;
+	height: auto;
+	border: solid 1px Yellow;
+	background-color: LavenderBlush;
+	padding: 15px;
+	margin: 15px auto;
+	color: Indigo;
+}
+article p{
+	color: black;
+}
+
+article img{
+	float: left;
+	width: 140px;
+	height: 140px;
+	margin: 5px;
+}
+article h2{	
+	border-bottom: dashed DarkOrange;
+}
+
+.clear {
+	clear: both;
+}
+
+footer{
+	width: 100%;
+	text-align: center;
+	background-color: pink;
+	position: fixed;
+	bottom: 0px;
+}
